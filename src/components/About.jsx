@@ -5,7 +5,7 @@ export default function About() {
     <section id="about" className="px-5 py-20 text-center" style={{ background: C.burnt, color: C.parchment }}>
       <div className="mx-auto max-w-2xl">
         <img
-          src="/hero.jpg"
+          src={`${import.meta.env.BASE_URL}hero.jpg`}
           alt="حسن الراعي"
           className="mx-auto mb-6 h-40 w-40 rounded-full border-4 object-cover"
           style={{ borderColor: C.sun }}

@@ -10,7 +10,7 @@ export default function Hero() {
           role="img"
           aria-label={STORE.name}
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url(/banner.jpg)" }}
+          style={{ backgroundImage: `url(${import.meta.env.BASE_URL}banner.jpg)` }}
         />
         <div className="absolute inset-x-0 bottom-0 flex flex-wrap justify-center gap-3 bg-liner-to-t from-[#3B2216] to-transparent px-5 pb-10 pt-24">
           <Btn href="#gallery">شاهد أعمالنا</Btn>
